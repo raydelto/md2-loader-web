@@ -8,3 +8,4 @@ We have also created the following MD2 loaders:
 * [Android MD2 Loader with Kotlin, C++ and OpenGL ES](https://github.com/raydelto/opengles-md2loader-android "Android")
 
 
+Should you have any inquiry you can contact me at: raydelto[at]yahoo.com .
