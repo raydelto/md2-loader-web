@@ -1,4 +1,3 @@
-
 function setRandomColors(object, scale) {
     var children = object.children;
     if (children && children.length > 0) {
@@ -739,8 +738,6 @@ function computeNormalsGroup(group) {
 
         tempGeom.normalsNeedUpdate = true;
         
-        // group = new THREE.BufferGeometry();
-        // group.fromGeometry(tempGeom);
         group.geometry = tempGeom;
 
     } else if (group instanceof THREE.Group) {
