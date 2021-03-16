@@ -1,4 +1,4 @@
-# MD2 Loader Web
+# MD2 Web Loader
 
 A Simple Javascript MD2 model loader written using THREE.js.
 
