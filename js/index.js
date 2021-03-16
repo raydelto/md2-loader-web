@@ -18,13 +18,13 @@ function init() {
   initDefaultLighting(scene);
   var textureLoader = new THREE.TextureLoader();
   var loader = new THREE.MD2Loader();
-  loader.load('../models/female/female.md2', function (result) {
+  loader.load('./models/female/female.md2', function (result) {
 
     var mat = new THREE.MeshStandardMaterial(
       { morphTargets: true, 
         color: 0xffffff,
         metalness: 0,
-        map: textureLoader.load('../models/female/skin/female.jpg')
+        map: textureLoader.load('./models/female/skin/female.jpg')
     })
     
     var mesh = new THREE.Mesh(result, mat);
